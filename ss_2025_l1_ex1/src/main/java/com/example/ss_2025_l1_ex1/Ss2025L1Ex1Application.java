@@ -9,5 +9,4 @@ public class Ss2025L1Ex1Application {
     public static void main(String[] args) {
         SpringApplication.run(Ss2025L1Ex1Application.class, args);
     }
-
 }
