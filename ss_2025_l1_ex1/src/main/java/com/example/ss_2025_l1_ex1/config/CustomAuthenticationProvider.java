@@ -12,7 +12,8 @@ import java.util.Arrays;
 /*The AuthenticationProvider implements the authentication logic.
 It receives the request from the AuthenticationManager and
 delegates finding the user to a UserDetailsService, verifying the password to a PasswordEncoder.*/
-@Component
+
+//@Component
 public class CustomAuthenticationProvider implements AuthenticationProvider {
 
     @Override
