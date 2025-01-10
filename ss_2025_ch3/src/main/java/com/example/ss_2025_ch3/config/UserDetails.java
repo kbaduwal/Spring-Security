@@ -5,6 +5,7 @@ import org.springframework.security.core.GrantedAuthority;
 import java.io.Serializable;
 import java.util.Collection;
 
+//The UserDetails interface is the contract you use to describe a user in Spring Security
 public interface UserDetails extends Serializable {
 
     //These methods return the user credentials.
